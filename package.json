@@ -10,6 +10,10 @@
     "build": "cd client && npm run build",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
+  "engines": {
+    "node": "v16.13.0",
+    "npm": "8.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nelsonRoberts1968/professional-portfolio-react.git"
