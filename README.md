@@ -33,7 +33,7 @@ npm start
 ​
 ## Website Homepage
 ​
-![Screenshot](public/image/ProjectHomepage.png)
+![Screenshot](https://user-images.githubusercontent.com/16344305/159855009-4c745738-8356-4410-9526-27fc9a3808c6.png)
 
 
 
