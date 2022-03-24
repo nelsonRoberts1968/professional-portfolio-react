@@ -3,6 +3,9 @@ const express = require ("express");
 const cors =require("cors");
 const path = require("path");
 
+
+
+const port = process.env.PORT || 3001;
 const app = express();
 //creating middleware
 app.use(express.json);
@@ -14,5 +17,5 @@ app.get("*",(req,res)=>(
     res.sendFile(path.resolve(__dirname,"../client/build/index.html"))
 ))
 
-const port = process.env.PORT || 3001;
+
 app.listen(port, console.log(`server listenrning to port 3001`))
